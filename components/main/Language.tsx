@@ -355,7 +355,7 @@ const Language = () => {
         </div> 
 
         <div className="mx-auto">
-        <div className="mt-5 text-[#cccccc] text-2xl sm:text-3xl dancing-font  text-center p-10" id='know'>Hosting Platform</div>
+        <div className="mt-5 text-[#cccccc] text-2xl sm:text-3xl dancing-font  text-center p-10 font-bold font-cursive" id='know'>Hosting Platform</div>
         <div className="flex gap-5 w-full px-[16px] md:px-[50px] lg:px-[250px] justify-center">
           <div className="flex w-fit justify-center flex-wrap gap-4 md:gap-6">
 
@@ -535,7 +535,7 @@ const Language = () => {
         </div>
 
         <div className="mx-auto">
-        <div className="mt-5 text-[#cccccc] text-2xl sm:text-3xl dancing-font  text-center p-10" id='know'>Tools</div>
+        <div className="mt-5 text-[#cccccc] text-2xl sm:text-3xl dancing-font  text-center p-10 font-cursive font-bold" id='know'>Tools</div>
         <div className="flex gap-5 w-full px-[16px] md:px-[50px] lg:px-[250px] justify-center">
           <div className="flex w-fit justify-center flex-wrap gap-4 md:gap-6">
 

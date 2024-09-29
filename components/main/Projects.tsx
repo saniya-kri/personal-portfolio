@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="select-none h-[40px] w-[40px] bg-gradient-to-r from-[#7928ca] to-[#ff0080] rounded-full flex items-center justify-center text-black text-md font-bold">2</div>
             <div id="projects" className="select-none bg-gradient-to-r from-[#7928ca] to-[#ff0080] mt-5 text-3xl font-[700] text-clip text-transparent bg-clip-text dancing-font">My Projects</div>
             <div className="mt-6 font-[700] text-[2rem] text-white sm:text-[3rem] tracking-[-0.1rem] leading-tight text-center">Showcasing my creative journey</div>
-            <div className="mt-10 text-[#cccccc] text-2xl sm:text-3xl dancing-font py-4">Fullstack Projects</div>
+            <div className="mt-10 text-[#cccccc] text-2xl sm:text-3xl font-cursive font-bold py-4">Fullstack Projects</div>
             </div>
            </div>
            

@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="mt-6 font-[700] text-[2rem] sm:text-[3rem] tracking-[-0.1rem] leading-tight text-center">
             We are all connected
           </div>
-          <div className="mt-5 text-[#cccccc] text-2xl sm:text-4xl dancing-font">
+          <div className="mt-5 text-[#cccccc] text-2xl font-cursive sm:text-4xl dancing-font">
             Let&apos;s Connect
           </div>
 

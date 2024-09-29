@@ -4,7 +4,7 @@ import { FaLink } from "react-icons/fa6";
 const Fullstack = () => {
   return (
       <div className="w-11/12 mt-10 mx-auto">
-      <div className="mt-10 text-[#cccccc] text-2xl sm:text-4xl dancing-font py-4 text-center p-2 mb-10">Frontend Projects</div>
+      <div className="mt-10 text-[#cccccc] text-2xl sm:text-4xl py-4 text-center p-2 mb-10 font-cursive font-bold">Frontend Projects</div>
         <div className=" w-full flex flex-wrap justify-center gap-10 items-center">
         
           <div>
