@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+        trailingSlash: true, // Optional: Ensures trailing slashes on routes
+        // Other configurations...
+    };
+    
+    export default nextConfig;
+    
 
-export default nextConfig;
+      

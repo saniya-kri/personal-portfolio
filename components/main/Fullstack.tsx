@@ -8,12 +8,12 @@ const Fullstack = () => {
         <div className=" w-full flex flex-wrap justify-center gap-10 items-center">
         
           <div>
-            <div className="product-group group p-[1px] flex items-center justify-center relative select-none text-white">
+          <div className="product-group group p-[1px] flex items-center justify-center relative select-none">
               <div className="absolute top-5 right-5 bg-red-500 p-0.5 px-2 rounded-[2px] text-xs z-30 shadow-lg">
                 DEMO
               </div>
-              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 -gray-700 bg-zinc border border-gray-700">
-                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden -gray-700 Image-area">
+              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 border border-gray-700 bg-zinc text-white">
+                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden border border-gray-700 img-area">
                   <Image
                     alt="image1"
                     draggable="false"
@@ -38,11 +38,11 @@ const Fullstack = () => {
                 </div>
                 <div className="pt-[10px] rounded-b-lg p-5">
                     <div className="text-[10px] text-[#9a9a9b]">
-                      Clone Website of prog.com
+                      Clone Website of Prog.com
                     </div>
                     <div className="w-full flex flex-row items-center justify-between">
                       <div className="text-1xl font-medium">Prog</div>
-                      <div  className="text-[12px] flex items-center text-white bg-blue-500 font-semibold bg-blue px-4 py-1 rounded-sm" >
+                      <div  className="text-[12px] flex items-center bg-blue-500 text-white font-semibold bg-blue px-4 py-1 rounded-sm" >
                         <FaLink className="mx-2"/>
                         <a href="https://prog-pro.vercel.app/" className="cursor-pointer">Link</a>
                     </div>
@@ -52,13 +52,12 @@ const Fullstack = () => {
             </div>
           </div>
 
-          <div>
-            <div className="product-group group p-[1px] flex items-center justify-center relative select-none text-white">
+          <div className="product-group group p-[1px] flex items-center justify-center relative select-none">
               <div className="absolute top-5 right-5 bg-red-500 p-0.5 px-2 rounded-[2px] text-xs z-30 shadow-lg">
                 DEMO
               </div>
-              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 -gray-700 bg-zinc border border-gray-700">
-                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden -gray-700 Image-area">
+              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 border border-gray-700 bg-zinc text-white">
+                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden border border-gray-700 img-area">
                   <Image
                     alt="image1"
                     draggable="false"
@@ -86,8 +85,8 @@ const Fullstack = () => {
                       Clone Website of Brainbave.com
                     </div>
                     <div className="w-full flex flex-row items-center justify-between">
-                      <div className="text-1xl font-medium">BrainBave</div>
-                      <div  className="text-[12px] flex items-center text-white bg-blue-500 font-semibold bg-blue px-4 py-1 rounded-sm" >
+                      <div className="text-1xl font-medium">Brainbave</div>
+                      <div  className="text-[12px] flex items-center bg-blue-500 text-white font-semibold bg-blue px-4 py-1 rounded-sm" >
                         <FaLink className="mx-2"/>
                         <a href="https://saniya-kri.github.io/BranewaveTwo/" className="cursor-pointer">Link</a>
                     </div>
@@ -95,15 +94,99 @@ const Fullstack = () => {
                   </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div className="product-group group p-[1px] flex items-center justify-center relative select-none text-white">
+            <div className="product-group group p-[1px] flex items-center justify-center relative select-none">
               <div className="absolute top-5 right-5 bg-red-500 p-0.5 px-2 rounded-[2px] text-xs z-30 shadow-lg">
                 DEMO
               </div>
-              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 -gray-700 bg-zinc border border-gray-700">
-                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden -gray-700 Image-area">
+              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 border border-gray-700 bg-zinc text-white">
+                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden border border-gray-700 img-area">
+                  <Image
+                    alt="image1"
+                    draggable="false"
+                    loading="lazy"
+                    width="300"
+                    height="200"
+                    decoding="async"
+                    className="image_one text-transparent"
+                    src="/assets/images/chip.jpeg"
+                  />
+
+                  <Image
+                    alt="image2"
+                    draggable="false"
+                    loading="lazy"
+                    width="300"
+                    height="200"
+                    decoding="async"
+                    className="image_two text-transparent"
+                    src="/assets/images/chip4.png"
+                  />
+                </div>
+                <div className="pt-[10px] rounded-b-lg p-5">
+                    <div className="text-[10px] text-[#9a9a9b]">
+                      Clone Website of Iphone.com
+                    </div>
+                    <div className="w-full flex flex-row items-center justify-between">
+                      <div className="text-1xl font-medium">I Phone</div>
+                      <div  className="text-[12px] flex items-center bg-blue-500 text-white font-semibold bg-blue px-4 py-1 rounded-sm" >
+                        <FaLink className="mx-2"/>
+                        <a href="https://prog-pro.vercel.app/" className="cursor-pointer">Link</a>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+         <div className="product-group group p-[1px] flex items-center justify-center relative select-none">
+              <div className="absolute top-5 right-5 bg-red-500 p-0.5 px-2 rounded-[2px] text-xs z-30 shadow-lg">
+                DEMO
+              </div>
+              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 border border-gray-700 bg-zinc text-white">
+                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden border border-gray-700 img-area">
+                  <Image
+                    alt="image1"
+                    draggable="false"
+                    loading="lazy"
+                    width="300"
+                    height="200"
+                    decoding="async"
+                    className="image_one text-transparent"
+                    src="/assets/images/price.png"
+                  />
+
+                  <Image
+                    alt="image2"
+                    draggable="false"
+                    loading="lazy"
+                    width="300"
+                    height="200"
+                    decoding="async"
+                    className="image_two text-transparent"
+                    src="/assets/images/price2.png"
+                  />
+                </div>
+                <div className="pt-[10px] rounded-b-lg p-5">
+                    <div className="text-[10px] text-[#9a9a9b]">
+                      Clone Website of pricing
+                    </div>
+                    <div className="w-full flex flex-row items-center justify-between">
+                      <div className="text-1xl font-medium">Pricing-section</div>
+                      <div  className="text-[12px] flex items-center bg-blue-500 text-white font-semibold bg-blue px-4 py-1 rounded-sm" >
+                        <FaLink className="mx-2"/>
+                        <a href="https://sven-react-app.netlify.app/" className="cursor-pointer">Link</a>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div className="product-group group p-[1px] flex items-center justify-center relative select-none">
+              <div className="absolute top-5 right-5 bg-red-500 p-0.5 px-2 rounded-[2px] text-xs z-30 shadow-lg">
+                DEMO
+              </div>
+              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 border border-gray-700 bg-zinc text-white">
+                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden border border-gray-700 img-area">
                   <Image
                     alt="image1"
                     draggable="false"
@@ -132,7 +215,7 @@ const Fullstack = () => {
                     </div>
                     <div className="w-full flex flex-row items-center justify-between">
                       <div className="text-1xl font-medium">Legion</div>
-                      <div  className="text-[12px] flex items-center text-white bg-blue-500 font-semibold bg-blue px-4 py-1 rounded-sm" >
+                      <div  className="text-[12px] flex items-center bg-blue-500 text-white font-semibold bg-blue px-4 py-1 rounded-sm" >
                         <FaLink className="mx-2"/>
                         <a href="https://saniya-kri.github.io/portfolioLeg/" className="cursor-pointer">Link</a>
                     </div>
@@ -140,15 +223,13 @@ const Fullstack = () => {
                   </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div className="product-group group p-[1px] flex items-center justify-center relative select-none text-white">
+            <div className="product-group group p-[1px] flex items-center justify-center relative select-none">
               <div className="absolute top-5 right-5 bg-red-500 p-0.5 px-2 rounded-[2px] text-xs z-30 shadow-lg">
                 DEMO
               </div>
-              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 -gray-700 bg-zinc border border-gray-700">
-                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden -gray-700 Image-area">
+              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 border border-gray-700 bg-zinc text-white">
+                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden border border-gray-700 img-area">
                   <Image
                     alt="image1"
                     draggable="false"
@@ -173,11 +254,11 @@ const Fullstack = () => {
                 </div>
                 <div className="pt-[10px] rounded-b-lg p-5">
                     <div className="text-[10px] text-[#9a9a9b]">
-                      Clone Website of Hook.com
+                      Clone Website of HookBank.com
                     </div>
                     <div className="w-full flex flex-row items-center justify-between">
-                      <div className="text-1xl font-medium">Hook Bank</div>
-                      <div  className="text-[12px] flex items-center text-white bg-blue-500 font-semibold bg-blue px-4 py-1 rounded-sm" >
+                      <div className="text-1xl font-medium">HookBank</div>
+                      <div  className="text-[12px] flex items-center bg-blue-500 text-white font-semibold bg-blue px-4 py-1 rounded-sm" >
                         <FaLink className="mx-2"/>
                         <a href="https://hook-bank-kohl.vercel.app/" className="cursor-pointer">Link</a>
                     </div>
@@ -185,15 +266,13 @@ const Fullstack = () => {
                   </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div className="product-group group p-[1px] flex items-center justify-center relative select-none text-white">
+            <div className="product-group group p-[1px] flex items-center justify-center relative select-none">
               <div className="absolute top-5 right-5 bg-red-500 p-0.5 px-2 rounded-[2px] text-xs z-30 shadow-lg">
                 DEMO
               </div>
-              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 -gray-700 bg-zinc border border-gray-700">
-                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden -gray-700 Image-area">
+              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 border border-gray-700 bg-zinc text-white">
+                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden border border-gray-700 img-area">
                   <Image
                     alt="image1"
                     draggable="false"
@@ -218,11 +297,11 @@ const Fullstack = () => {
                 </div>
                 <div className="pt-[10px] rounded-b-lg p-5">
                     <div className="text-[10px] text-[#9a9a9b]">
-                      Portfolio Website of Kavin Rush.com
+                      Clone Portfolio of Kavin Rush.com
                     </div>
                     <div className="w-full flex flex-row items-center justify-between">
                       <div className="text-1xl font-medium">Kavin Rush</div>
-                      <div  className="text-[12px] flex items-center text-white bg-blue-500 font-semibold bg-blue px-4 py-1 rounded-sm" >
+                      <div  className="text-[12px] flex items-center bg-blue-500 text-white font-semibold bg-blue px-4 py-1 rounded-sm" >
                         <FaLink className="mx-2"/>
                         <a href="https://saniya-kri.github.io/first-app/" className="cursor-pointer">Link</a>
                     </div>
@@ -230,15 +309,13 @@ const Fullstack = () => {
                   </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div className="product-group group p-[1px] flex items-center justify-center relative select-none text-white">
+            <div className="product-group group p-[1px] flex items-center justify-center relative select-none">
               <div className="absolute top-5 right-5 bg-red-500 p-0.5 px-2 rounded-[2px] text-xs z-30 shadow-lg">
                 DEMO
               </div>
-              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 -gray-700 bg-zinc border border-gray-700">
-                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden -gray-700 Image-area">
+              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 border border-gray-700 bg-zinc text-white">
+                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden border border-gray-700 img-area">
                   <Image
                     alt="image1"
                     draggable="false"
@@ -247,7 +324,7 @@ const Fullstack = () => {
                     height="200"
                     decoding="async"
                     className="image_one text-transparent"
-                    src="/assets/images/essy.jpeg"
+                    src="/assets/images/fron.jpeg"
                   />
 
                   <Image
@@ -258,16 +335,16 @@ const Fullstack = () => {
                     height="200"
                     decoding="async"
                     className="image_two text-transparent"
-                    src="/assets/images/fron.jpeg"
+                    src="/assets/images/essy.jpeg"
                   />
                 </div>
                 <div className="pt-[10px] rounded-b-lg p-5">
                     <div className="text-[10px] text-[#9a9a9b]">
-                      Clone Website of Esy frontend practice
+                      Clone Portfolio of esy frontend.com
                     </div>
                     <div className="w-full flex flex-row items-center justify-between">
                       <div className="text-1xl font-medium">Esy Frontend</div>
-                      <div  className="text-[12px] flex items-center text-white bg-blue-500 font-semibold bg-blue px-4 py-1 rounded-sm" >
+                      <div  className="text-[12px] flex items-center bg-blue-500 text-white font-semibold bg-blue px-4 py-1 rounded-sm" >
                         <FaLink className="mx-2"/>
                         <a href="https://hrx-react-app.netlify.app/" className="cursor-pointer">Link</a>
                     </div>
@@ -275,15 +352,13 @@ const Fullstack = () => {
                   </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div className="product-group group p-[1px] flex items-center justify-center relative select-none text-white">
+            <div className="product-group group p-[1px] flex items-center justify-center relative select-none">
               <div className="absolute top-5 right-5 bg-red-500 p-0.5 px-2 rounded-[2px] text-xs z-30 shadow-lg">
                 DEMO
               </div>
-              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 -gray-700 bg-zinc border border-gray-700">
-                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden -gray-700 Image-area">
+              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 border border-gray-700 bg-zinc text-white">
+                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden border border-gray-700 img-area">
                   <Image
                     alt="image1"
                     draggable="false"
@@ -292,7 +367,7 @@ const Fullstack = () => {
                     height="200"
                     decoding="async"
                     className="image_one text-transparent"
-                    src="/assets/images/R.jpg"
+                    src="/assets/images/virtual.jpg"
                   />
 
                   <Image
@@ -303,16 +378,16 @@ const Fullstack = () => {
                     height="200"
                     decoding="async"
                     className="image_two text-transparent"
-                    src="/assets/images/virtual.jpg"
+                    src="/assets/images/R.jpg"
                   />
                 </div>
                 <div className="pt-[10px] rounded-b-lg p-5">
                     <div className="text-[10px] text-[#9a9a9b]">
-                      Clone Website of VirtualR.com
+                      Clone Portfolio of esy virtual R.com
                     </div>
                     <div className="w-full flex flex-row items-center justify-between">
-                      <div className="text-1xl font-medium">VertualR</div>
-                      <div  className="text-[12px] flex items-center text-white bg-blue-500 font-semibold bg-blue px-4 py-1 rounded-sm" >
+                      <div className="text-1xl font-medium">Virtual R</div>
+                      <div  className="text-[12px] flex items-center bg-blue-500 text-white font-semibold bg-blue px-4 py-1 rounded-sm" >
                         <FaLink className="mx-2"/>
                         <a href="https://saniya-kri.github.io/third-app/" className="cursor-pointer">Link</a>
                     </div>
@@ -320,15 +395,13 @@ const Fullstack = () => {
                   </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div className="product-group group p-[1px] flex items-center justify-center relative select-none text-white">
+            <div className="product-group group p-[1px] flex items-center justify-center relative select-none">
               <div className="absolute top-5 right-5 bg-red-500 p-0.5 px-2 rounded-[2px] text-xs z-30 shadow-lg">
                 DEMO
               </div>
-              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 -gray-700 bg-zinc border border-gray-700">
-                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden -gray-700 Image-area">
+              <div className="relative z-20 group p-[10px] glassmorph rounded-lg z-1 border border-gray-700 bg-zinc text-white">
+                <div className="relative h-[200px] w-[300px] flex flex-row items-center justify-center rounded-md overflow-hidden border border-gray-700 img-area">
                   <Image
                     alt="image1"
                     draggable="false"
@@ -353,11 +426,11 @@ const Fullstack = () => {
                 </div>
                 <div className="pt-[10px] rounded-b-lg p-5">
                     <div className="text-[10px] text-[#9a9a9b]">
-                      Clone Website of scroll background
+                      Clone Portfolio of esy Scroll-Bg.com
                     </div>
                     <div className="w-full flex flex-row items-center justify-between">
-                      <div className="text-1xl font-medium">Scroll background</div>
-                      <div  className="text-[12px] flex items-center text-white bg-blue-500 font-semibold bg-blue px-4 py-1 rounded-sm" >
+                      <div className="text-1xl font-medium">Scroll Bg</div>
+                      <div  className="text-[12px] flex items-center bg-blue-500 text-white font-semibold bg-blue px-4 py-1 rounded-sm" >
                         <FaLink className="mx-2"/>
                         <a href="https://scroll-bg.netlify.app/" className="cursor-pointer">Link</a>
                     </div>
@@ -365,7 +438,6 @@ const Fullstack = () => {
                   </div>
               </div>
             </div>
-          </div>
 
        
         
